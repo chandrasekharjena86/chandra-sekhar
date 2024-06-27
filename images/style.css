@@ -1,0 +1,403 @@
+* {
+    margin: 0px;
+    box-sizing: border-box;
+    padding: 0px;
+    font-family: roboto, sans-serif;
+}
+
+.container {
+    max-width: 992px;
+    margin: 0px auto;
+}
+
+.row {
+    margin-top: 20px;
+}
+
+.line1 {
+    margin-bottom: 40px;
+}
+
+.navbar-brand {
+    /* font-size: 50px !important; */
+    font-weight: 700;
+    font-family: lato, sans-serif;
+    text-transform: capitalize;
+}
+
+.navbar-brand.logo {
+    font-size: 30px;
+    position: relative;
+
+}
+
+.navbar-brand.logo::after {
+    content: "";
+    height: 7px;
+    width: 7px;
+    background-color: rgb(26, 72, 180);
+    border-radius: 50%;
+    position: absolute;
+    bottom: 17px;
+    right: -13px;
+}
+
+.navbar-collapse {
+    display: flex;
+    flex-basis: auto;
+    flex-direction: row-reverse;
+    text-transform: capitalize;
+    margin: 20px;
+}
+
+.navbar-collapse a {
+    margin-left: 20px;
+}
+
+.navbar-nav.skills {
+    font-size: 20pxpx;
+    font-weight: 600;
+    font-family: lato, sans-serif;
+}
+
+.fullname {
+    position: relative;
+    font-size: 30px;
+    display: inline-block;
+    font-weight: 700;
+
+
+}
+
+p {
+    color: rgb(114, 112, 112);
+}
+
+.fullname .name::after {
+    content: "";
+    height: 7px;
+    width: 7px;
+    background-color: rgb(26, 72, 180);
+    border-radius: 50%;
+    position: absolute;
+    bottom: 5px;
+    right: -13px;
+}
+
+.profile-image img {
+    width: 100%;
+}
+
+.about-me-bold {
+    font-weight: 600;
+    text-transform: uppercase;
+    min-width: 83px;
+    display: inline-block;
+    padding-right: 50px;
+
+}
+
+.about-me-info {
+    font-size: 14px;
+    line-height: 1.4;
+}
+
+.about-me-info ul {
+    display: flex;
+    padding-left: 0px;
+}
+
+ul li {
+    list-style: none;
+}
+
+.about-me-info ul li:first-child {
+    min-width: 150px;
+}
+
+.icon-gap li {
+    color: black;
+    list-style: none;
+    display: flex;
+    display: inline-block;
+
+}
+
+.flex-icon {
+    display: flex;
+}
+
+li a {
+    color: black;
+    margin-right: 10px;
+}
+
+.button a {
+    text-decoration: none;
+    padding: 15px 40px;
+    margin-right: 30px;
+    color: white;
+    background-color: #3333ff;
+    text-transform: uppercase;
+    font-size: 13px;
+    font-weight: 500;
+    font-family: roboto, sans-serif;
+    border-radius: 3px;
+
+}
+
+.button #resume {
+    color: #000;
+    background-color: rgb(234, 234, 234);
+    border: none;
+    border-radius: 3px;
+}
+
+.line {
+    margin-top: 50px;
+}
+
+.before {
+    position: relative;
+}
+
+.before h2 {
+    text-transform: capitalize;
+}
+
+.before h2::after {
+    content: "";
+    height: 7px;
+    width: 7px;
+    background-color: rgb(26, 72, 180);
+    border-radius: 50%;
+    position: absolute;
+    bottom: 10px;
+    right: 268px;
+
+}
+
+.before h2 {
+    font-weight: 600;
+    font-family: roboto, sans-serif;
+    font-size: 30px;
+    text-transform: capitalize;
+
+}
+
+.row h5 {
+    font-weight: 500;
+    font-family: roboto, sans-serif;
+    text-transform: capitalize;
+}
+
+.experience-point {
+    position: relative;
+}
+
+.experience-point h2::after {
+    content: "";
+    height: 7px;
+    width: 7px;
+    background-color: rgb(26, 72, 180);
+    border-radius: 50%;
+    position: absolute;
+    bottom: 110px;
+    right: 184px;
+}
+
+.experience-point h2 {
+    font-weight: 600;
+    font-family: roboto, sans-serif;
+    font-size: 30px;
+    text-transform: capitalize;
+
+}
+
+.education-point {
+    position: relative;
+}
+
+.education-point h2::after {
+    content: "";
+    height: 7px;
+    width: 7px;
+    background-color: rgb(26, 72, 180);
+    border-radius: 50%;
+    position: absolute;
+    bottom: 88px;
+    right: 200px;
+}
+
+.education-point h2 {
+    font-weight: 600;
+    font-family: roboto, sans-serif;
+    font-size: 30px;
+    text-transform: capitalize;
+}
+
+.devpage h5 {
+    display: inline-block;
+    margin-right: 10px;
+    text-transform: capitalize;
+}
+
+.span {
+    color: gray;
+}
+
+.line {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.col-md-3 {
+    display: flex;
+}
+
+.project ul {
+    display: flex;
+
+}
+
+.project h2 {
+    font-weight: 600;
+    font-family: roboto, sans-serif;
+    font-size: 30px;
+    text-transform: capitalize;
+}
+
+.project {
+    position: relative;
+}
+
+.project h2::after {
+    content: "";
+    height: 7px;
+    width: 7px;
+    background-color: rgb(26, 72, 180);
+    border-radius: 50%;
+    position: absolute;
+    bottom: 39px;
+    right: 981px;
+}
+
+li a {
+    text-decoration: none;
+    margin: 50px 50px 50px 0px;
+    text-transform: uppercase;
+}
+
+.portfolio_nav .higlight a {
+    color: rgb(26, 72, 180);
+    font-size: 15px;
+    font-weight: 700;
+    font-family: sans-serif;
+}
+
+.portfolio_nav .higlight a:hover {
+    text-decoration: underline;
+}
+
+ul li {
+    font-size: 15px;
+    font-weight: 700;
+    font-family: sans-serif;
+
+}
+
+.portfolio_nav li a:hover {
+    text-decoration: underline;
+    color: rgb(26, 72, 180);
+}
+
+.contact_mesg h2 {
+    font-weight: 600;
+    font-family: roboto, sans-serif;
+    font-size: 30px;
+    text-transform: capitalize;
+}
+
+.contact_mesg {
+    position: relative;
+}
+
+.contact_mesg ::after {
+    position: absolute;
+    content: "";
+    height: 7px;
+    width: 7px;
+    background-color: rgb(26, 72, 180);
+    border-radius: 50%;
+    bottom: 88px;
+    right: 231px;
+
+}
+
+.inputtext input {
+    display: block;
+    padding: 10px 25px;
+    font-family: monospace;
+}
+
+.mesg input {
+    display: block;
+    padding: 5px 249px 83px 5px;
+    margin-left: 45px;
+}
+
+input:focus {
+    border-color: #3333ff;
+
+}
+
+.flex {
+    display: flex;
+}
+
+.email {
+    margin-top: 20px;
+}
+
+.web {
+    display: inline-block;
+}
+
+.div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.footer {
+    border: 1px solid black;
+    text-align: center;
+    background-color: gray;
+
+}
+
+.footer p {
+    text-transform: capitalize;
+    color: black;
+    margin-top: 12px;
+
+}
+
+.sent_mesg a {
+    text-decoration: none;
+    text-transform: capitalize;
+    border: 1px solid #3333ff;
+    padding: 15px 20px;
+    color: #fff;
+    background-color: #3333ff;
+    border-radius: 3px;
+
+}
+
+.web img {
+    display: inline-block;
+    width: 250px;
+    height: 250px;
+}
+
